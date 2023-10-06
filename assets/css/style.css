@@ -135,6 +135,10 @@ img {
   height: 45.875rem;
 }
 
+.product-link:hover {
+  background-color: red;
+}
+
 .section-pruduct-full:nth-of-type(1) {
   margin-top: 0;
 }
@@ -212,4 +216,15 @@ img {
 
 .footer-item h3 {
   margin-bottom: 2.5rem;
+}
+
+.footer--item-links {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-auto-rows: 1fr;
+}
+
+.copyright {
+  color: #848484;
 }
