@@ -117,6 +117,10 @@ img {
   font-size: 1.25rem;
 }
 
+.logo:hover {
+  color: var(--link-color);
+}
+
 .nav-items {
   display: flex;
   column-gap: 3.75rem;
