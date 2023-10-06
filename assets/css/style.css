@@ -233,3 +233,39 @@ img {
 .copyright {
   color: #848484;
 }
+
+/* ------------------------ */
+/* Responsiv */
+/* ------------------------ */
+
+@media screen and (max-width: 580px) {
+  .section-pruduct-gallery {
+    display: block;
+  }
+
+  .container {
+    padding-inline: 1.25rem;
+  }
+
+  .section-header {
+    height: 6.25rem;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: repeat(2, 50px);
+    align-items: center;
+    text-transform: uppercase;
+  }
+
+  .logo {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .nav-items {
+    grid-row: 2 / 3;
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 10px;
+    font-size: 0.625rem;
+  }
+}
