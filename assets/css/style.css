@@ -135,10 +135,6 @@ img {
   height: 45.875rem;
 }
 
-.product-link:hover {
-  background-color: red;
-}
-
 .section-pruduct-full:nth-of-type(1) {
   margin-top: 0;
 }
